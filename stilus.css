@@ -133,7 +133,15 @@ header h5{
 
 
 
-/* teheneknek a mező része */
+/* az article és a tehenekneknek a mező része */
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #d6e1d1;
+}
+
 .hatter {
     display: flex;
     flex-wrap: wrap;
@@ -172,3 +180,28 @@ header h5{
     display: block;
 }
 
+.tenyek {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.tenyek div {
+    background-color: #d6e1d1;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.tenyek div h2{
+    color: #2c6e50;
+}
+
+.gondolat{
+    background-color: #eadacf;
+    border-left: 3.5px solid #d77939;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
