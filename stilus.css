@@ -1,9 +1,12 @@
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f7f7ee;
     margin: 20px;
     padding: 20px;
 }
+
 
 /* első navigáció */
 .elso{
@@ -196,7 +199,12 @@ article {
 
 .tenyek div h2{
     color: #2c6e50;
+    margin: 5px;
 }
+.tenyek div p{
+    margin: 5px;
+}
+
 
 .gondolat{
     background-color: #eadacf;
@@ -204,4 +212,52 @@ article {
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+
+
+/* aside */
+
+aside {
+    background-color: #d6e1d1;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #d6e1d1;
+    margin-top: 20px;
+}
+
+
+
+.gazda{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-left: 3.5px solid #3b9842;
+    background-color: #e8f3df;
+}
+
+#cim{
+    margin: 10px;
+
+}
+
+.gazda h2{
+    color: #2c6e50;
+    margin: 0;
+    padding: 0;
+}
+
+.gazda p{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    border-top: 1px solid #d6e1d1;
+    margin-top: 20px;
+}
+
+footer span{
+    color: #2c6e50;
+    border-bottom: 1.5px solid #2c6e50;
 }
