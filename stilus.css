@@ -1,0 +1,174 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7ee;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* első navigáció */
+.elso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bal {
+    font-weight: bold;
+}
+
+.jobb ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    list-style-type: none;
+}
+
+.jobb a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.jobb a:hover {
+    color: #fff;
+    background-color: #2c6e50;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #174b38;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 5px;
+    padding: 0;
+}
+
+header p{
+    font-size: 13px;
+    margin: 5px;
+    padding: 0;
+    color: #e8f3df;
+}
+
+header h5{
+    color: #e8f3df;
+    margin: 5px;
+    padding: 0;
+}
+
+.h-bal{
+    padding: 10px;
+    margin: 5px;
+}
+
+.h-jobb{
+    border-radius: 10px;
+    background-color: #2c6e50;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #e8f3df;
+}
+
+.h-jobb h2{
+    color: #e8f3df;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* második navigáció */
+
+.masodik {
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+
+.masodik ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.masodik li {
+    flex: 1;
+}
+
+.masodik a {
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+    color: #2c6e50;
+    background-color: #d6e1d1;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.masodik a:hover {
+    background-color: #e8f3df;
+    color: #2c6e50;
+}
+
+
+
+
+/* teheneknek a mező része */
+.hatter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: linear-gradient(
+        to bottom,
+        #d9eeee 0%,
+        #d9eeee 50%,
+        #acd27d 50%,
+        #acd27d 100%
+    );
+    border-radius: 10px;
+}
+
+
+.tehen {
+    width: 11%;
+    display: flex;
+    justify-content: center;
+}
+
+.tehen:nth-child(9) {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.tehen img {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    display: block;
+}
+
