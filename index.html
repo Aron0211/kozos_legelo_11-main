@@ -6,14 +6,16 @@
     <meta name="keywords" content="Tehenek, Legelő">
     <meta name="author" content="Papp Áron">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stilus.css">
+    <link rel="stylesheet" href="alap.css">
+    <link rel="stylesheet" href="flex.css">
     <title>Közös Legelő | Papp Áron</title>
 </head>
 <body>
     <main>
         <nav class="elso">
             <div class="bal">
-                <p>A közös legelő</p>
+                <p id="csillag">*</p>
+                <p> A közös legelő</p>
             </div>
             <div class="jobb">
                 <nav>
@@ -51,56 +53,61 @@
             </ul>
         </nav>
 
-        <article>
-            <h2>A legelő most mindenkinek elég</h2>
-            <p>Kilenc tehén legel a közös területen. Egy állat naponta 10 liter tejet ad.
-            </p>
-            <div class="hatter">
+        <div id="fo-tarolo">
+            <article id="nagy-section">
+                <h2>A legelő most mindenkinek elég</h2>
+                <p>Kilenc tehén legel a közös területen. Egy állat naponta 10 liter tejet ad.
+                </p>
+                <div class="hatter">
 
-                <div class="tehen"><img src="assets/tehen.svg" alt="tehén1"></div>
-                <div class="tehen"><img src="assets/tehen.svg" alt="tehén2"></div>
-                <div class="tehen"><img src="assets/tehen.svg" alt="tehén3"></div>
-                <div class="tehen"><img src="assets/tehen.svg" alt="tehén4"></div>
-                <div class="tehen"><img src="assets/tehen.svg" alt="tehén5"></div>
-                <div class="tehen"><img src="assets/tehen.svg" alt="tehén6"></div>
-                <div class="tehen"><img src="assets/tehen.svg" alt="tehén7"></div>
-                <div class="tehen"><img src="assets/tehen.svg" alt="tehén8"></div>
-                <div class="tehen"><img src="assets/tehen.svg" alt="tehén9"></div>
-            </div>
-
-            <div class="tenyek">
-                <div> 
-                    <h2>9</h2>
-                    <p>tehén a legelőn</p>
+                    <div class="tehen"><img src="assets/tehen.svg" alt="tehén1"></div>
+                    <div class="tehen"><img src="assets/tehen.svg" alt="tehén2"></div>
+                    <div class="tehen"><img src="assets/tehen.svg" alt="tehén3"></div>
+                    <div class="tehen"><img src="assets/tehen.svg" alt="tehén4"></div>
+                    <div class="tehen"><img src="assets/tehen.svg" alt="tehén5"></div>
+                    <div class="tehen"><img src="assets/tehen.svg" alt="tehén6"></div>
+                    <div class="tehen"><img src="assets/tehen.svg" alt="tehén7"></div>
+                    <div class="tehen"><img src="assets/tehen.svg" alt="tehén8"></div>
+                    <div class="tehen"><img src="assets/tehen.svg" alt="tehén9"></div>
                 </div>
 
-                <div>
-                    <h2>10 liter</h2>
-                    <p>tej egy tehéntől naponta</p>
+                <div class="tenyek">
+                    <div> 
+                        <h2>9</h2>
+                        <p>tehén a legelőn</p>
+                    </div>
+
+                    <div>
+                        <h2>10 liter</h2>
+                        <p>tej egy tehéntől naponta</p>
+                    </div>
+
+                    <div>
+                        <h2>10 liter</h2>
+                        <p>egy gazda napi hozama</p>
+                    </div>
                 </div>
 
-                <div>
-                    <h2>10 liter</h2>
-                    <p>egy gazda napi hozama</p>
+                <div class="gondolat">
+                    <p><strong>Gondold végig:</strong> Mitől függ, hogy a legelő a következő napokban is elegendő táplálékot ad-e?</p>
                 </div>
-            </div>
+            </article>
 
-            <div class="gondolat">
-                <p><strong>Gondold végig:</strong> Mitől függ, hogy a legelő a következő napokban is elegendő táplálékot ad-e?</p>
-            </div>
-        </article>
 
-        <aside>
-            <p id="cim">Mit gondalhatnak a gazdák?</p>
-            <div class="gazda">
-                <p>„Van elég fű.”</p>
-                <p>Most mindenkinek jut.</p>
-            </div>
-            <div class="gazda">
-                <p>„A legelő közös.”</p>
-                <p>A döntésem a többiekre is hatással lehet.</p>
-            </div>
-        </aside>
+            <aside id="kis-section">
+                <h2 id="cim">Mit gondalhatnak a gazdák?</h2>
+                <div class="gazda">
+                    <p>„Van elég fű.”</p>
+                    <p>Most mindenkinek jut.</p>
+                </div>
+                <div class="gazda">
+                    <p>„A legelő közös.”</p>
+                    <p>A döntésem a többiekre is hatással lehet.</p>
+                </div>
+            </aside>
+        </div>
+
+        
 
         <footer>
             <p>A történet forrása: <span>Zöld Föld, szakképzés 9-10. 12-13. oldal.</span> Tanórai feldolgoás, saját megfogalmazásában.</p>
