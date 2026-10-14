@@ -73,12 +73,17 @@ header {
 
 #kis-section {
     flex: 0 0 25%;
+    margin: 10px;
 }
 
 
 
 /* ARTICLE ÉS TEHÉN MEZŐ */
 
+#fo-tarolo{ 
+    display: flex;
+    
+}
 
 .hatter {
     display: flex;
