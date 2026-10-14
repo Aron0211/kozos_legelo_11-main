@@ -179,8 +179,9 @@ article {
 
 
 .tehen {
-    width: 11%;
+    flex: 0 0 11%;
 }
+
 
 .tehen:nth-child(9) {
     width: 100%;
@@ -188,8 +189,7 @@ article {
 }
 
 .tehen img {
-    width: 100%;
-    max-width: 50px;
+    width:100%;
     height: auto;
     display: block;
 }

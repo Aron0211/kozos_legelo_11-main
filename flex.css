@@ -88,8 +88,9 @@ header {
 .hatter {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
 }
 
 
