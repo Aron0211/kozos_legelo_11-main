@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="alap.css">
     <link rel="stylesheet" href="flex.css">
+    <link rel="stylesheet" href="urlap.css">
     <title>Közös Legelő | Papp Áron</title>
 </head>
 <body>
@@ -54,6 +55,8 @@
 
         <div id="fo-tarolo">
             <form>
+                <h2>Rövid gondolatkísérlet</h2>
+                <p>Az űrlap a HTML-elemek gyakorlására készült. A válaszokat az oldal nem értékeli és nem menti el.</p>
                 <fieldset>
                     <legend>1. Mit segített volna megelőzni a legelő túlélését?</legend>
                     <div>
@@ -97,22 +100,27 @@
                     <textarea name="" id="" placeholder="Szerintem azért lenne érdemes..."></textarea>
 
                 </fieldset>
+
+                <div class="submit">
+                    <input type="submit" value="Beküldés">
+                </div>
             </form>
+            
             <aside id="kis-section">
-                <h2 id="cim">Mit gondalhatnak a gazdák?</h2>
-                <div class="gazda">
-                    <p>„Van elég fű.”</p>
-                    <p>Most mindenkinek jut.</p>
-                </div>
-                <div class="gazda">
-                    <p>„A legelő közös.”</p>
-                    <p>A döntésem a többiekre is hatással lehet.</p>
-                </div>
-                <a href="index.html"><button>Történet újraolvasása</button></a>
+                <h2 id="cim">Beszélgetéshez</h2>
+                <ul>
+                    <li>Miért tűnt jó döntésnek a második tehén?</li>
+                    <li>Mikor változott meg az egyéni és a közös érdek viszonya?</li>
+                    <li>Milyen szabályt tartanál igazságosnak?</li>
+                </ul>
+                <a href="index.html">Történet újraolvasása</a>
             </aside>
 
-            <a href="kovetkezmeny.html"><button>Előző oldal</button></a>
+            
+            
         </div>
+
+        <a href="kovetkezmeny.html" id="elozo"> Előző oldal</a>
 
         <footer>
             <p>A történet forrása: <span>Zöld Föld, szakképzés 9-10. 12-13. oldal.</span> Tanórai feldolgoás, saját megfogalmazásában.</p>
